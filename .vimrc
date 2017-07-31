@@ -10,7 +10,8 @@ colorscheme hybrid_reverse
 set t_CO=256
 set backspace=indent,eol,start		"Make backspace behave like every other editor.
 let mapleader = ','			"The default leader is \, but a comma is much better
-set paste				"TurnOff autoindent when you paste code
+"This is conflicting with auto-pairs plugin
+"set paste				"TurnOff autoindent when you paste code
 set smartindent
 set autoindent
 
